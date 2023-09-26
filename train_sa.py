@@ -368,6 +368,7 @@ def train_base(model, args):
 if __name__ == "__main__":
     args = parse()
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpuids
+    setup_seed(0)
 
     model = resnet50(pretrained=True)
     model = new_clsnet(model)
