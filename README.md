@@ -3,3 +3,10 @@
 This is the official implementation of the above paper in PyTorch.
 
 Please note that we have recently found its performance to be quite satisfactory when the codebook size N = 1000. Considering its low parameter count and computational complexity, we recommend set N = 1000 for use. Additionally, we also have provided pre-trained checkpoints for reproduction. [Google Drive](https://drive.google.com/file/d/1R3ZQpkVP3rf4a67JgGPsWQFPult9hCRZ/view?usp=sharing). You can download the ckpt file and put it in checkpoints/SA.
+
+## Usage
+For installing the package [imagecorruptions](https://github.com/bethgelab/imagecorruptions) you can simply run this command below:
+
+```shell
+pip install imagecorruptions
+```
